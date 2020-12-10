@@ -10,6 +10,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
   background: -webkit-linear-gradient(left, #7579ff, #b224ef);
 }
 
@@ -37,10 +38,17 @@ input, button{
   transition: transform 1.2s easi-in-out, -webkit-transform 1.2s ease-in-out;
 }
 
+h1{
+  width: 50%;
+  text-align: center;
+  color:#875BAE;
+  text-transform: uppercase;
+}
 h2{
   width: 100%;
   font-size: 30px;
   text-align: center;
+  color: #ffff
 }
 
 label{
@@ -53,6 +61,6 @@ label{
 label span{
   font-size: 14px;
   font-weight: 600;
-  color: #505f75;
+  color: #E5E5E5;
   text-transform: uppercase;
 }
