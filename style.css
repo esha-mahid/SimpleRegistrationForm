@@ -39,7 +39,7 @@ input, button{
 }
 
 h1{
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   color:#875BAE;
@@ -134,4 +134,28 @@ button{
 .social-media img{
   width: 40px;
   height: 40px;
+}
+
+.sub-cont{
+  overflow: hidden;
+  position: absolute;
+  left: 640px;
+  top: 0;
+  width: 900px;
+  height: 100%;
+  padding-left: 260px;
+  background: #fff;
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+}
+
+.img{
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100%;
+  padding-top: 360px;
 }
