@@ -159,3 +159,17 @@ button{
   height: 100%;
   padding-top: 360px;
 }
+
+.img:before{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 900px;
+  height:100%;
+  background-image: url(images/scene.jpg);
+  background-size: cover;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out,-webkit-transform 1.2s ease-in-out;
+
+}
